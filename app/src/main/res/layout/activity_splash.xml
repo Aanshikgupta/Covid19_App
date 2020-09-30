@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="1"
+    android:background="#FFFFFF"
+    tools:context=".splash" >
+
+    <ImageView
+        android:id="@+id/worker"
+        android:layout_width="324dp"
+        android:layout_height="391dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/workers" />
+
+    <ImageView
+        android:id="@+id/police"
+        android:layout_width="324dp"
+        android:layout_height="391dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/police1" />
+
+    <ImageView
+        android:id="@+id/doctor"
+        android:layout_width="324dp"
+        android:layout_height="391dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/doctor" />
+</RelativeLayout>
